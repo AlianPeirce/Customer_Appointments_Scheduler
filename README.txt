@@ -68,7 +68,7 @@
  •  AUTHOR: The author of this application is Alian Peirce.
     CONTACT INFORMATION: The author may be reached at the email apeirc2@wgu.edu .
     STUDENT APPLICATION VERSION: This is application version 1.0 .
-    DATE: The current date is 04/14/2022.
+    DATE: The current date is 08/01/2022.
 
 
 
