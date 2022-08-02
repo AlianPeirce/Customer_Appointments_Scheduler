@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"controller"},{"l":"customerappointmentsapplication"},{"l":"database_connection"},{"l":"database_CRUD"},{"l":"model"}];updateSearchResults();

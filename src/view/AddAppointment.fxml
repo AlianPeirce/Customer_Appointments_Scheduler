@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddAppointmentController">
+   <content>
+      <AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="690.0" style="-fx-background-color: #fdfdfd;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7cc0ff" height="66.0" stroke="#7cc0ff" strokeType="INSIDE" width="690.0" />
+            <Label fx:id="addAppointmentLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="8.0" maxHeight="77.0" maxWidth="690.0" minHeight="22.0" prefHeight="66.0" prefWidth="690.0" text=" ADD APPOINTMENT" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Arial Black" size="32.0" />
+               </font>
+               <padding>
+                  <Insets left="-4.0" />
+               </padding>
+            </Label>
+            <VBox prefHeight="835.0" prefWidth="690.0" AnchorPane.leftAnchor="0.0">
+               <children>
+                  <Label fx:id="identificationNumberLabel" layoutX="55.0" layoutY="145.0" text="Identification Number">
+                     <font>
+                        <Font name="Segoe UI Bold" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="2.0" left="35.0" top="80.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="apptIdTextField" disable="true" editable="false" layoutX="55.0" layoutY="167.0" maxWidth="600.0" prefHeight="30.0" prefWidth="537.0" promptText="Auto-Generated" style="-fx-background-color: #deefff;">
+                     <VBox.margin>
+                        <Insets left="35.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="titleLabel" text="Title">
+                     <VBox.margin>
+                        <Insets bottom="2.0" left="35.0" top="18.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Segoe UI Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="apptTitleTextField" maxWidth="600.0" prefHeight="30.0" prefWidth="517.0" style="-fx-background-color: #deefff;">
+                     <VBox.margin>
+                        <Insets left="35.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="descriptionLabel" text="Description">
+                     <VBox.margin>
+                        <Insets bottom="2.0" left="35.0" top="18.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Segoe UI Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="apptDescriptionTextField" maxHeight="32.0" maxWidth="600.0" prefHeight="30.0" prefWidth="490.0" style="-fx-background-color: #deefff;">
+                     <VBox.margin>
+                        <Insets left="35.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="typeLabel" layoutX="55.0" layoutY="191.0" text="Type">
+                     <font>
+                        <Font name="Segoe UI Bold" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="2.0" left="35.0" top="18.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="apptTypeTextField" layoutX="55.0" layoutY="215.0" maxHeight="32.0" maxWidth="600.0" prefHeight="30.0" prefWidth="290.0" style="-fx-background-color: #deefff;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="35.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label fx:id="locationLabel" layoutX="20.0" layoutY="351.0" text="Location">
+                     <font>
+                        <Font name="Segoe UI Bold" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="2.0" left="35.0" top="18.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="apptLocationTextField" layoutX="20.0" layoutY="369.0" maxHeight="32.0" maxWidth="600.0" prefHeight="30.0" prefWidth="290.0" style="-fx-background-color: #deefff;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="35.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <HBox maxWidth="670.0" minWidth="500.0" prefHeight="74.0" prefWidth="670.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="380.0">
+                           <children>
+                              <Label fx:id="startDateLabel" text="Start Date">
+                                 <font>
+                                    <Font name="Segoe UI Bold" size="15.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="35.0" top="26.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <DatePicker fx:id="apptStartDateDatePicker" minHeight="29.0" prefHeight="29.0" prefWidth="230.0" style="-fx-background-color: #a7d3fa;">
+                                 <VBox.margin>
+                                    <Insets left="35.0" />
+                                 </VBox.margin>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </DatePicker>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="250.0">
+                           <children>
+                              <Label fx:id="startTimeLabel" text="Start Time">
+                                 <font>
+                                    <Font name="Segoe UI Bold" size="15.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="-10.0" top="26.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField fx:id="apptStartTimeTextField" maxWidth="166.0" minHeight="30.0" minWidth="50.0" prefWidth="50.0" promptText="HH:MM" style="-fx-background-color: #deefff;">
+                                 <VBox.margin>
+                                    <Insets left="-10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="-30.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox layoutX="290.0" layoutY="10.0" prefHeight="200.0" prefWidth="250.0">
+                           <children>
+                              <Label fx:id="endTimeLabel" text="End Time">
+                                 <font>
+                                    <Font name="Segoe UI Bold" size="15.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" top="26.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField fx:id="apptEndTimeTextField" maxWidth="160.0" minHeight="30.0" minWidth="50.0" prefWidth="50.0" promptText="HH:MM" style="-fx-background-color: #deefff;">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="-20.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox maxWidth="670.0" minWidth="500.0" prefHeight="74.0" prefWidth="670.0">
+                     <children>
+                        <Label fx:id="endDateQuestionLabel" prefWidth="380.0" text="Does the appointment continue into the next day?">
+                           <font>
+                              <Font name="Segoe UI Bold" size="14.5" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="45.0" />
+                           </HBox.margin>
+                        </Label>
+                        <RadioButton fx:id="endDateDifferentYES_RadioButton" minHeight="15.0" mnemonicParsing="false" text="Yes">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="endDateDifferentTG" />
+                           </toggleGroup>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </RadioButton>
+                        <RadioButton fx:id="endDateDifferentNO_RadioButton" layoutX="526.0" layoutY="30.0" mnemonicParsing="false" text="No" toggleGroup="$endDateDifferentTG">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </RadioButton>
+                     </children>
+                     <padding>
+                        <Insets left="35.0" top="34.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="4.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox maxWidth="670.0" minWidth="500.0" prefHeight="74.0" prefWidth="670.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="360.0">
+                           <children>
+                              <Label fx:id="customerLabel" text="Customer">
+                                 <font>
+                                    <Font name="Segoe UI Bold" size="15.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="35.0" top="28.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <ComboBox fx:id="apptCustomerComboBox" maxHeight="20.0" minHeight="30.0" prefHeight="20.0" prefWidth="266.0" promptText="Select a customer" style="-fx-background-color: #a7d3fa;">
+                                 <VBox.margin>
+                                    <Insets left="35.0" />
+                                 </VBox.margin>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ComboBox>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="330.0">
+                           <children>
+                              <Label fx:id="contactLabel" text="Contact">
+                                 <font>
+                                    <Font name="Segoe UI Bold" size="15.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="6.0" top="28.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <ComboBox fx:id="apptContactComboBox" maxHeight="20.0" minHeight="30.0" prefHeight="20.0" prefWidth="200.0" promptText="Select a contact" style="-fx-background-color: #a7d3fa;">
+                                 <VBox.margin>
+                                    <Insets left="6.0" />
+                                 </VBox.margin>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ComboBox>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="14.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox layoutX="334.0" layoutY="10.0" prefHeight="200.0" prefWidth="330.0">
+                           <children>
+                              <Label fx:id="userInChargeLabel" text="User in Charge">
+                                 <font>
+                                    <Font name="Segoe UI Bold" size="15.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="17.0" top="28.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <ComboBox fx:id="apptUserComboBox" maxHeight="20.0" minHeight="30.0" prefHeight="20.0" prefWidth="155.0" promptText="Select a user" style="-fx-background-color: #a7d3fa;">
+                                 <VBox.margin>
+                                    <Insets left="17.0" />
+                                 </VBox.margin>
+                              </ComboBox>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="6.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets top="-28.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="BOTTOM_CENTER" prefHeight="160.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="addAppointmentButton" mnemonicParsing="false" onAction="#onActionAddAppointment" prefHeight="45.0" prefWidth="225.0" style="-fx-background-color: #49a7fc; -fx-border-color: #0284fa; -fx-border-radius: 3px;" text="Add Appointment" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Bold" size="22.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <InnerShadow blurType="ONE_PASS_BOX">
+                                 <color>
+                                    <Color red="0.21568627655506134" green="0.5215686559677124" blue="0.8705882430076599" />
+                                 </color>
+                              </InnerShadow>
+                           </effect>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets right="10.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="6.0" left="10.0" top="15.0" />
+               </padding>
+            </VBox>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#onActionDisplayAppointmentsTable" prefHeight="40.0" prefWidth="112.0" style="-fx-background-color: #49a7fc; -fx-border-color: #0284fa; -fx-border-radius: 3px;" text=" Back" textFill="WHITE" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="15.0">
+               <graphic>
+                  <ImageView fitHeight="130.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="https://i.imgur.com/AFQcokY.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="-4.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX">
+                     <color>
+                        <Color red="0.21568627655506134" green="0.5490196347236633" blue="0.8705882430076599" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </Button>
+            <Button fx:id="signOutButton" minHeight="38.0" minWidth="100.0" mnemonicParsing="false" onAction="#onActionDisplayLoginScreen" style="-fx-background-color: #49a7fc; -fx-border-color: #0284fa; -fx-border-radius: 3px;" text=" Sign out" textFill="WHITE" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="17.0">
+               <font>
+                  <Font name="Segoe UI Semibold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="130.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="https://i.imgur.com/4D9gXCi.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="2.0" right="5.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX">
+                     <color>
+                        <Color red="0.21568627655506134" green="0.5490196347236633" blue="0.8705882430076599" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
