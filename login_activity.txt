@@ -810,3 +810,38 @@
      ◦ Username used:  test
 
 
+ • A successful login attempt was detected.
+
+     ◦ Timestamp:  2022-08-02 02:39:08.858202900 UTC
+
+     ◦ Username used:  test
+
+
+ • A successful login attempt was detected.
+
+     ◦ Timestamp:  2022-08-02 03:20:11.670073 UTC
+
+     ◦ Username used:  test
+
+
+ • A successful login attempt was detected.
+
+     ◦ Timestamp:  2022-08-02 03:21:58.165407500 UTC
+
+     ◦ Username used:  test
+
+
+ • A successful login attempt was detected.
+
+     ◦ Timestamp:  2022-08-02 03:28:14.483068800 UTC
+
+     ◦ Username used:  test
+
+
+ • A successful login attempt was detected.
+
+     ◦ Timestamp:  2022-08-02 03:29:09.591969700 UTC
+
+     ◦ Username used:  test
+
+
