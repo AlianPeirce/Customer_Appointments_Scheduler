@@ -65,14 +65,21 @@ Please ensure that your systems match the following criteria.
 		1. Click on the Start icon of your computer and select the "Settings" application.<p></p>
 		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/ocOKayp.png" alt="Settings icon in the Start Menu" width=35%><p></p>
 		2. Once the setting application opens, select the "Time and Language" option.<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/9VChGDF.png" alt="Time and Language option in the Settings app" width=70%><p></p>
+		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/9VChGDF.png" alt="Time and Language option in the Settings app" width=75%><p></p>
 		3. Next, select the "Date & time" tab.<p></p>
 		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/duZ90LL.png" alt="Date & time tab in the Settings app" width=33%><p></p>
 		4. Finally, scroll down within the "Date & time" tab to look for the "Adjust for daylight saving time automatically" option. Please ensure that the toggle switch associated with this option is set to "On".<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/sMG0Hcn.png" alt="DST toggle option in the Settings app" width=70%><p></p><p>&nbsp;<p></p>
+		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/sMG0Hcn.png" alt="DST toggle option in the Settings app" width=75%><p></p><p>&nbsp;<p></p>
 
 
 ### Installation instructions
+
+1. Starting from <a href="https://github.com/alanopeirce/Customer_Appointments_Scheduler">the main project page on Github</a>, click on the green "Code" button that appears above the upper right corner of the application files (see blue rectangle below).<p></p>
+From the drop-down menu that opens, click "Download ZIP" (see red rectangle below). This will download the application onto your computer as a ZIP file.<p></p>
+<img src="https://i.imgur.com/kPc2j4e.png" alt="How to download application files from Github" width=90%><p></p>
+
+2. Words
+
 
  •  AUTHOR: The author of this application is Alian Peirce.
     CONTACT INFORMATION: The author may be reached at the email apeirc2@wgu.edu .
