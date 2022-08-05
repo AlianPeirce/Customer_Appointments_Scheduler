@@ -77,7 +77,7 @@ Please ensure that your systems match the following criteria.
 
 ### Installation instructions
 
-1. Starting from <a href="https://github.com/alanopeirce/Customer_Appointments_Scheduler">the main project page on Github</a>, click on the green "Code" button that appears above the upper right corner of the application files (see blue rectangle below).<p></p>
+1. Starting from <a href="https://github.com/AlanoPeirce/Customer_Appointments_Scheduler">the main project page on Github</a>, click on the green "Code" button that appears above the upper right corner of the application files (see blue rectangle below).<p></p>
 From the drop-down menu that opens, click "Download ZIP" (see red rectangle below). This will download the application onto your computer as a ZIP file.<p></p>
 <img src="https://i.imgur.com/kPc2j4e.png" alt="How to download application files from Github" width=90%><p></p>
 
