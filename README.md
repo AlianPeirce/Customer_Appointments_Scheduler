@@ -63,13 +63,13 @@ Please ensure that your systems match the following criteria.
 4. **Other prerequisites:**
 	* Please follow the instructions below so that the application can accurately detect users' time zone.<p></p>
 		1. Click on the Start icon of your computer and select the "Settings" application.<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/ocOKayp.png" alt="Settings icon in the Start Menu" width=30%><p></p>
+		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/ocOKayp.png" alt="Settings icon in the Start Menu" width=35%><p></p>
 		2. Once the setting application opens, select the "Time and Language" option.<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/9VChGDF.png" alt="Time and Language option in the Settings app" width=60%><p></p>
+		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/9VChGDF.png" alt="Time and Language option in the Settings app" width=65%><p></p>
 		3. Next, select the "Date & time" tab.<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/duZ90LL.png" alt="Date & time tab in the Settings app" width=26%><p></p>
+		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/duZ90LL.png" alt="Date & time tab in the Settings app" width=29%><p></p>
 		4. Finally, scroll down within the "Date & time" tab to look for the "Adjust for daylight saving time automatically" option. Please ensure that the toggle switch associated with this option is set to "On".<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/sMG0Hcn.png" alt="DST toggle option in the Settings app" width=60%><p></p><p>&nbsp;<p></p>
+		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/sMG0Hcn.png" alt="DST toggle option in the Settings app" width=65%><p></p><p>&nbsp;<p></p>
 
 
 ### Installation instructions
