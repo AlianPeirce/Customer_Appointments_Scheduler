@@ -41,7 +41,10 @@ Please ensure that your systems match the following criteria.
 1. **Operating System:** 
 	* Windows 10
 
-2. **Database specifications:**
+2. **IDE (Integrated Development Environment):**
+	* Apache Netbeans 12.6
+
+3. **Database specifications:**
 	* <ins>Protocol:</ins> JDBC
 	* <ins>Vendor:</ins> MySQL
 	* <ins>Location (relative to the program file):</ins> //localhost/
@@ -50,7 +53,7 @@ Please ensure that your systems match the following criteria.
 	* <ins>Database username:</ins> sqlUser
 	* <ins>Database password:</ins> Passw0rd!
 
-3. **Database layout:**
+4. **Database layout:**
 	* Your database must conform to the following ERD diagram:
 	&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   <img src="https://i.imgur.com/3irClaD.png" alt="ERD diagram of required database layout"><p></p>
 	* Furthermore, the contents of each table in the database must match the following descriptions:<p></p>
@@ -60,7 +63,7 @@ Please ensure that your systems match the following criteria.
 		* The <ins>Contacts</ins> table must be pre-populated with the business contacts of LCG.
 		* The <ins>Customers</ins> and <ins>Appointments</ins> tables *may* be pre-populated with customer records and appointment records (respectively), but this is NOT a requirement. These tables will be the storage locations for any customer and appointment records that are created using the application.
 
-4. **Other prerequisites:**
+5. **Other prerequisites:**
 	* Please follow the instructions below so that the application can accurately detect users' time zone.<p></p>
 		1. Click on the Start icon of your computer and select the "Settings" application.<p></p>
 		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/ocOKayp.png" alt="Settings icon in the Start Menu" width=35%><p></p>
