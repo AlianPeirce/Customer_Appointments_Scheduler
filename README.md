@@ -88,10 +88,15 @@ From the drop-down menu that opens, click "Download ZIP" (see red rectangle belo
 Now, navigate through your local directories to find the ZIP file that you downloaded in step 1. Open and then import this ZIP file.<p></p>
 &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/6rEBl5e.png" alt="NetBeans import project popup window"><p>&nbsp;</p>
 
-4. Now, you can build the project.<p></p>
-To do this, first highlight the project by clicking on it (see rectangle #1 in the image below). Then, click the "Clean and Build" button (see rectangle #2).<p></p>
+4. Now, you can build the project. To do this, first highlight the project file by clicking on it (see rectangle #1 in the image below). Then, click the "Clean and Build" button (see rectangle #2).<p></p>
 After waiting for the project to finish building, you should see a message in the Output window that says "BUILD SUCCESSFUL" (see rectangle #3).<p></p>
-&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/c0PH2H0.png" alt="How to build NetBeans project" width=90%><p></p>
+&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/c0PH2H0.png" alt="How to build NetBeans project" width=90%><p>&nbsp;</p>
+
+5. Lastly, you need to run the project. Make sure the project file is still highlighted from step 4 — then, click on the "Run" button (which looks like a green arrow) in NetBeans' toolbar.<p></p>
+&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/GWZ8jKd.png" alt="NetBeans Run button"><p>&nbsp;</p>
+
+6. The application should now start up! The first page you should see is the login page of the application, which looks like this:<p></p>
+&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/mmHjG3x.png" alt="Login page of application"><p>&nbsp;</p>
 
 
  •  AUTHOR: The author of this application is Alian Peirce.
