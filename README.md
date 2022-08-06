@@ -71,7 +71,7 @@ Please ensure that your systems match the following criteria.
 		        <li>
 			    Click on the Start icon of your computer and select the "Settings" application.<p></p>
 			    <details>
-			        <summary><b>&nbsp;Show image</b></summary>
+			        <summary><b>Show image</b></summary>
 			        <br>
 			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/ocOKayp.png" alt="Settings icon in the Start Menu" width=35%><p></p>
 			    </details>
@@ -79,7 +79,7 @@ Please ensure that your systems match the following criteria.
 			<li>
 			    Once the setting application opens, select the "Time and Language" option.<p></p>
 			    <details>
-			        <summary><b>&nbsp;Show image</b></summary>
+			        <summary><b>Show image</b></summary>
 			        <br>
 			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/9VChGDF.png" alt="Time and Language option in the Settings app" width=75%><p></p>
 			    </details>
@@ -87,7 +87,7 @@ Please ensure that your systems match the following criteria.
 			<li>
 			    Next, select the "Date & time" tab.<p></p>
 			    <details>
-			        <summary><b>&nbsp;Show image</b></summary>
+			        <summary><b>Show image</b></summary>
 			        <br>
 			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/duZ90LL.png" alt="Date & time tab in the Settings app" width=33%><p></p>
 			    </details>
@@ -95,7 +95,7 @@ Please ensure that your systems match the following criteria.
 			<li>
 			    Finally, scroll down within the "Date & time" tab to look for the "Adjust for daylight saving time automatically" option. Please ensure 				that the toggle switch associated with this option is set to "On".<p></p>
 			    <details>
-			        <summary><b>&nbsp;Show image</b></summary>
+			        <summary><b>Show image</b></summary>
 			        <br>
 			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/sMG0Hcn.png" alt="DST toggle option in the Settings app" width=75%><p>&nbsp;</p>
 			    </details>
