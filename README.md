@@ -65,15 +65,44 @@ Please ensure that your systems match the following criteria.
 
 5. **Other prerequisites:**
 	* Please follow the instructions below so that the application can accurately detect users' time zone.<p></p>
-		1. Click on the Start icon of your computer and select the "Settings" application.<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/ocOKayp.png" alt="Settings icon in the Start Menu" width=35%><p></p>
-		2. Once the setting application opens, select the "Time and Language" option.<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/9VChGDF.png" alt="Time and Language option in the Settings app" width=75%><p></p>
-		3. Next, select the "Date & time" tab.<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/duZ90LL.png" alt="Date & time tab in the Settings app" width=33%><p></p>
-		4. Finally, scroll down within the "Date & time" tab to look for the "Adjust for daylight saving time automatically" option. Please ensure that the toggle switch associated with this option is set to "On".<p></p>
-		&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/sMG0Hcn.png" alt="DST toggle option in the Settings app" width=75%><p>&nbsp;</p>
-
+	
+		<div>
+		    <ol type="a">
+		        <li>
+			    Click on the Start icon of your computer and select the "Settings" application.<p></p>
+			    <details>
+			        <summary><b>&nbsp;Show image</b></summary>
+			        <br>
+			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/ocOKayp.png" alt="Settings icon in the Start Menu" width=35%><p></p>
+			    </details>
+			</li>
+			<li>
+			    Once the setting application opens, select the "Time and Language" option.<p></p>
+			    <details>
+			        <summary><b>&nbsp;Show image</b></summary>
+			        <br>
+			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/9VChGDF.png" alt="Time and Language option in the Settings app" width=75%><p></p>
+			    </details>
+			</li>
+			<li>
+			    Next, select the "Date & time" tab.<p></p>
+			    <details>
+			        <summary><b>&nbsp;Show image</b></summary>
+			        <br>
+			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/duZ90LL.png" alt="Date & time tab in the Settings app" width=33%><p></p>
+			    </details>
+			</li>
+			<li>
+			    Finally, scroll down within the "Date & time" tab to look for the "Adjust for daylight saving time automatically" option. Please ensure 				that the toggle switch associated with this option is set to "On".<p></p>
+			    <details>
+			        <summary><b>&nbsp;Show image</b></summary>
+			        <br>
+			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/sMG0Hcn.png" alt="DST toggle option in the Settings app" width=75%><p>&nbsp;</p>
+			    </details>
+			</li>
+		    </ol>
+		</div>
+		&nbsp;
 
 ### <ins>Installation instructions</ins>
 
@@ -97,6 +126,9 @@ After waiting for the project to finish building, you should see a message in th
 
 6. The application should now start up! The first page you should see is the login page of the application, which looks like this:<p></p>
 &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/mmHjG3x.png" alt="Login page of application"><p>&nbsp;</p>
+
+
+## Usage
 
 
  •  AUTHOR: The author of this application is Alian Peirce.
