@@ -79,9 +79,19 @@ Please ensure that your systems match the following criteria.
 
 1. Starting from <a href="https://github.com/AlanoPeirce/Customer_Appointments_Scheduler">the main project page on Github</a>, click on the green "Code" button that appears above the upper right corner of the application files (see blue rectangle below).<p></p>
 From the drop-down menu that opens, click "Download ZIP" (see red rectangle below). This will download the application onto your computer as a ZIP file.<p></p>
-<img src="https://i.imgur.com/KQmp87l.png" alt="How to download application files from Github" width=90%><p></p>
+&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/KQmp87l.png" alt="How to download application files from Github" width=90%><p>&nbsp;</p>
 
-2. Words
+2. Open up NetBeans and click on File -> Import Project -> From ZIP.<p></p>
+&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/MfHv0gG.png" alt="How to import project into NetBeans"><p>&nbsp;</p>
+
+3. A popup window will appear. On this popup window, click the "Browse" button that appears next to the "ZIP File:" label (see image below).<p></p>
+Now, navigate through your local directories to find the ZIP file that you downloaded in step 1. Open and then import this ZIP file.<p></p>
+&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/6rEBl5e.png" alt="NetBeans import project popup window"><p>&nbsp;</p>
+
+4. Now, you can build the project.<p></p>
+To do this, first highlight the project by clicking on it (see rectangle #1 in the image below). Then, click the "Clean and Build" button (see rectangle #2).<p></p>
+After waiting for the project to finish building, you should see a message in the Output window that says "BUILD SUCCESSFUL" (see rectangle #3).<p></p>
+&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/c0PH2H0.png" alt="How to build NetBeans project" width=90%><p></p>
 
 
  •  AUTHOR: The author of this application is Alian Peirce.
