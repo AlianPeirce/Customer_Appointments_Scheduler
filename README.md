@@ -54,8 +54,17 @@ Please ensure that your systems match the following criteria.
 	* <ins>Database password:</ins> Passw0rd!
 
 4. **Database layout:**
-	* Your database must conform to the following ERD diagram:
-	&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   <img src="https://i.imgur.com/3irClaD.png" alt="ERD diagram of required database layout"><p></p>
+	<ul>
+	    <li>
+		Your database must conform to the following ERD diagram:<p></p>
+		<details>
+		    <summary><b>Show diagram</b></summary>
+		    <br>
+		    &nbsp;   &nbsp;<img src="https://i.imgur.com/7xLMo3V.png" alt="ERD diagram of required database layout"><p></p>
+	        </details>
+	    </li>
+	</ul>
+	
 	* Furthermore, the contents of each table in the database must match the following descriptions:<p></p>
 		* The <ins>Countries</ins> table must be pre-populated with the countries in which LCG does business.
 		* The <ins>First_Level_Divisions</ins> table must be pre-populated with the first-level divisions (e.g. states or provinces) of each of those countries.
@@ -106,26 +115,59 @@ Please ensure that your systems match the following criteria.
 
 ### <ins>Installation instructions</ins>
 
-1. Starting from <a href="https://github.com/AlanoPeirce/Customer_Appointments_Scheduler">the main project page on Github</a>, click on the green "Code" button that appears above the upper right corner of the application files (see blue rectangle below).<p></p>
-From the drop-down menu that opens, click "Download ZIP" (see red rectangle below). This will download the application onto your computer as a ZIP file.<p></p>
-&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/KQmp87l.png" alt="How to download application files from Github" width=90%><p>&nbsp;</p>
-
-2. Open up NetBeans and click on File -> Import Project -> From ZIP.<p></p>
-&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/lSEA6V1.png" alt="How to import project into NetBeans"><p>&nbsp;</p>
-
-3. A popup window will appear. On this popup window, click the "Browse" button that appears next to the "ZIP File:" label (see image below).<p></p>
-Now, navigate through your local directories to find the ZIP file that you downloaded in step 1. Open and then import this ZIP file.<p></p>
-&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/6rEBl5e.png" alt="NetBeans import project popup window"><p>&nbsp;</p>
-
-4. Now, you can build the project. To do this, first highlight the project file by clicking on it (see rectangle #1 in the image below). Then, click the "Clean and Build" button (see rectangle #2).<p></p>
-After waiting for the project to finish building, you should see a message in the Output window that says "BUILD SUCCESSFUL" (see rectangle #3).<p></p>
-&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/c0PH2H0.png" alt="How to build NetBeans project" width=90%><p>&nbsp;</p>
-
-5. Lastly, you need to run the project. Make sure the project file is still highlighted from step 4 — then, click on the "Run" button (which looks like a green arrow) in NetBeans' toolbar.<p></p>
-&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/GWZ8jKd.png" alt="NetBeans Run button"><p>&nbsp;</p>
-
-6. The application should now start up! The first page you should see is the login page of the application, which looks like this:<p></p>
-&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/mmHjG3x.png" alt="Login page of application"><p>&nbsp;</p>
+<ol>
+    <li>
+        Starting from <a href="https://github.com/AlanoPeirce/Customer_Appointments_Scheduler">the main project page on Github</a>, click on the green "Code" button 	     that appears above the upper right corner of the application files (see the blue rectangle in the image below).<p></p>
+        From the drop-down menu that opens, click "Download ZIP" (see the red rectangle in the image below). This will download the application onto your computer as a 	ZIP file.<p></p>
+	<details>
+	    <summary><b>Show image</b></summary>
+	    <br>
+	    &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/KQmp87l.png" alt="How to download application files from Github" width=90%><p>&nbsp;</p>
+	</details>
+    </li>
+    <li>
+        Open up NetBeans and click on File -> Import Project -> From ZIP.<p></p>
+	<details>
+	    <summary><b>Show image</b></summary>
+	    <br>
+	    &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/lSEA6V1.png" alt="How to import project into NetBeans"><p>&nbsp;</p>
+	</details>
+    </li>
+    <li>
+        A popup window will appear. On this popup window, click the "Browse" button that appears next to the "ZIP File:" label (see image below).<p></p>
+	Now, navigate through your local directories to find the ZIP file that you downloaded in step 1. Open and then import this ZIP file.<p></p>
+	<details>
+	    <summary><b>Show image</b></summary>
+	    <br>
+	    &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/6rEBl5e.png" alt="NetBeans import project popup window"><p>&nbsp;</p>
+	</details>
+    </li>
+    <li>
+        Now, you can build the project. To do this, first highlight the project file by clicking on it (see rectangle #1 in the image below). Then, click the "Clean 	     and Build" button (see rectangle #2).<p></p>
+	After waiting for the project to finish building, you should see a message in the Output window that says "BUILD SUCCESSFUL" (see rectangle #3).<p></p>
+	<details>
+	    <summary><b>Show image</b></summary>
+	    <br>
+	    &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/c0PH2H0.png" alt="How to build NetBeans project" width=90%><p>&nbsp;</p>
+	</details>
+    </li>
+    <li>
+        Lastly, you need to run the project. Make sure the project file is still highlighted from step 4 — then, click on the "Run" button (which looks like a green 	     arrow) in NetBeans' toolbar.<p></p>
+	<details>
+	    <summary><b>Show image</b></summary>
+	    <br>
+	    &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/GWZ8jKd.png" alt="NetBeans Run button"><p>&nbsp;</p>
+	</details>
+    </li>
+    <li>
+        The application should now start up! The first page you should see is the login page of the application, which looks like this:<p></p>
+	<details>
+	    <summary><b>Show image</b></summary>
+	    <br>
+	    &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/mmHjG3x.png" alt="Login page of application"><p>&nbsp;</p>
+	</details>
+    </li>
+</ol>
 
 
 ## Usage
