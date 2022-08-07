@@ -111,7 +111,6 @@ Please ensure that your systems match the following criteria.
 			</li>
 		    </ol>
 		</div>
-		&nbsp;
 
 ### <ins>Installation instructions</ins>
 
