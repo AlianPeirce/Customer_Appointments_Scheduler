@@ -30,7 +30,7 @@ Appointments and customer records can be added, updated, and deleted using the a
 	
 * **Many other features.** The application includes many other features and error-checking attributes that have not been named here.
 
-## System Requirements
+## System requirements
 
 Before installing the Customer Appointments Scheduler, please ensure that your systems match the following criteria.
 
@@ -168,14 +168,9 @@ Before installing the Customer Appointments Scheduler, please ensure that your s
 
 ## Usage
 
+## Other information
+* The version of JDK used in this application is Java SE 17.0.2.
+* The version of JavaFX used in this application is JavaFX-SDK-17.0.1.
 
- •  AUTHOR: The author of this application is Alian Peirce.
-    CONTACT INFORMATION: The author may be reached at the email apeirc2@wgu.edu .
-    STUDENT APPLICATION VERSION: This is application version 1.0 .
-    DATE: The current date is 08/01/2022.
-
-
-
- •  IDE SPECIFICATIONS: The IDE used for this project is Apache Netbeans 12.6 .
-    JDK SPECIFICATIONS: The version of JDK used is Java SE 17.0.2 .
-    JAVAFX SPECIFICATIONS: The version of JavaFX used is JavaFX-SDK-17.0.1 .
+## Acknowledgements
+* All aspects of this application were created by <a href="https://github.com/AlanoPeirce">Alano Peirce</a>.
