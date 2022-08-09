@@ -4,6 +4,18 @@ This Customer Appointments Scheduler is an application designed for the Langley 
 
 Appointments and customer records can be added, updated, and deleted using the application; all of these records will be stored in LCG's database.
 
+## Table of Contents
+* [Features](#features)
+* [System requirements](#system-requirements)
+	* [Operating System](#operating-system)
+	* [IDE (Integrated Development Environment)](#ide-integrated-development-environment)
+	* [Database specifications](#database-specifications)
+	* [Database layout](#database-layout)
+	* [Other prerequisites](#other-prerequisites)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Other information](#other-information)
+* [Acknowledgements](#acknowledgements)
 
 ## Features
 
