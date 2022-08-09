@@ -30,89 +30,86 @@ Appointments and customer records can be added, updated, and deleted using the a
 	
 * **Many other features.** The application includes many other features and error-checking attributes that have not been named here.
 
+## System Requirements
 
+Before installing the Customer Appointments Scheduler, please ensure that your systems match the following criteria.
 
+### Operating System
+* Windows 10
+
+### IDE (Integrated Development Environment)
+* Apache Netbeans 12.6
+
+### Database specifications
+* <ins>Protocol:</ins> JDBC
+* <ins>Vendor:</ins> MySQL
+* <ins>Location (relative to the program file):</ins> //localhost/
+* <ins>Database name:</ins> client_schedule
+* <ins>Database driver:</ins> mysql-connector-java-8.0.25
+* <ins>Database username:</ins> sqlUser
+* <ins>Database password:</ins> Passw0rd!
+
+### Database layout
+<ul>
+    <li>
+	Your database must conform to the following ERD diagram:<p></p>
+	<details>
+	    <summary><b>Show diagram</b></summary>
+	    <br>
+	    &nbsp;   &nbsp;<img src="https://i.imgur.com/7xLMo3V.png" alt="ERD diagram of required database layout"><p></p>
+	</details>
+    </li>
+</ul>
+	
+* Furthermore, the contents of each table in the database must match the following descriptions:<p></p>
+	* The <ins>Countries</ins> table must be pre-populated with the countries in which LCG does business.
+	* The <ins>First_Level_Divisions</ins> table must be pre-populated with the first-level divisions (e.g. states or provinces) of each of those countries.
+	* The <ins>Users</ins> table must be pre-populated with the user accounts that are authorized to access the application.
+	* The <ins>Contacts</ins> table must be pre-populated with the business contacts of LCG.
+	* The <ins>Customers</ins> and <ins>Appointments</ins> tables *may* be pre-populated with customer records and appointment records (respectively), but this is 		 NOT a requirement. These tables will be the storage locations for any customer and appointment records that are created using the application.
+
+### Other prerequisites
+* Please follow the instructions below so that the application can accurately detect users' time zone.<p></p>
+
+	<div>
+	    <ol>
+		<li>
+		    Click on the Start icon of your computer and select the "Settings" application.<p></p>
+		    <details>
+			<summary><b>Show image</b></summary>
+			<br>
+			&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/ocOKayp.png" alt="Settings icon in the Start Menu" width=35%><p></p>
+		    </details>
+		</li>
+		<li>
+		    Once the setting application opens, select the "Time and Language" option.<p></p>
+		    <details>
+			<summary><b>Show image</b></summary>
+			<br>
+			&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/9VChGDF.png" alt="Time and Language option in the Settings app" width=75%><p></p>
+		    </details>
+		</li>
+		<li>
+		    Next, select the "Date & time" tab.<p></p>
+		    <details>
+			<summary><b>Show image</b></summary>
+			<br>
+			&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/duZ90LL.png" alt="Date & time tab in the Settings app" width=33%><p></p>
+		    </details>
+		</li>
+		<li>
+		    Finally, scroll down within the "Date & time" tab to look for the "Adjust for daylight saving time automatically" option. Please ensure 				that the toggle switch associated with this option is set to "On".<p></p>
+		    <details>
+			<summary><b>Show image</b></summary>
+			<br>
+			&nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/sMG0Hcn.png" alt="DST toggle option in the Settings app" width=75%><p>&nbsp;</p>
+		    </details>
+		</li>
+	    </ol>
+	</div>
+
+		
 ## Installation
-
-### <ins>Before installing</ins>
-
-Please ensure that your systems match the following criteria.
-
-1. **Operating System:** 
-	* Windows 10
-
-2. **IDE (Integrated Development Environment):**
-	* Apache Netbeans 12.6
-
-3. **Database specifications:**
-	* <ins>Protocol:</ins> JDBC
-	* <ins>Vendor:</ins> MySQL
-	* <ins>Location (relative to the program file):</ins> //localhost/
-	* <ins>Database name:</ins> client_schedule
-	* <ins>Database driver:</ins> mysql-connector-java-8.0.25
-	* <ins>Database username:</ins> sqlUser
-	* <ins>Database password:</ins> Passw0rd!
-
-4. **Database layout:**
-	<ul>
-	    <li>
-		Your database must conform to the following ERD diagram:<p></p>
-		<details>
-		    <summary><b>Show diagram</b></summary>
-		    <br>
-		    &nbsp;   &nbsp;<img src="https://i.imgur.com/7xLMo3V.png" alt="ERD diagram of required database layout"><p></p>
-	        </details>
-	    </li>
-	</ul>
-	
-	* Furthermore, the contents of each table in the database must match the following descriptions:<p></p>
-		* The <ins>Countries</ins> table must be pre-populated with the countries in which LCG does business.
-		* The <ins>First_Level_Divisions</ins> table must be pre-populated with the first-level divisions (e.g. states or provinces) of each of those countries.
-		* The <ins>Users</ins> table must be pre-populated with the user accounts that are authorized to access the application.
-		* The <ins>Contacts</ins> table must be pre-populated with the business contacts of LCG.
-		* The <ins>Customers</ins> and <ins>Appointments</ins> tables *may* be pre-populated with customer records and appointment records (respectively), but this is NOT a requirement. These tables will be the storage locations for any customer and appointment records that are created using the application.
-
-5. **Other prerequisites:**
-	* Please follow the instructions below so that the application can accurately detect users' time zone.<p></p>
-	
-		<div>
-		    <ol type="a">
-		        <li>
-			    Click on the Start icon of your computer and select the "Settings" application.<p></p>
-			    <details>
-			        <summary><b>Show image</b></summary>
-			        <br>
-			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/ocOKayp.png" alt="Settings icon in the Start Menu" width=35%><p></p>
-			    </details>
-			</li>
-			<li>
-			    Once the setting application opens, select the "Time and Language" option.<p></p>
-			    <details>
-			        <summary><b>Show image</b></summary>
-			        <br>
-			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/9VChGDF.png" alt="Time and Language option in the Settings app" width=75%><p></p>
-			    </details>
-			</li>
-			<li>
-			    Next, select the "Date & time" tab.<p></p>
-			    <details>
-			        <summary><b>Show image</b></summary>
-			        <br>
-			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/duZ90LL.png" alt="Date & time tab in the Settings app" width=33%><p></p>
-			    </details>
-			</li>
-			<li>
-			    Finally, scroll down within the "Date & time" tab to look for the "Adjust for daylight saving time automatically" option. Please ensure 				that the toggle switch associated with this option is set to "On".<p></p>
-			    <details>
-			        <summary><b>Show image</b></summary>
-			        <br>
-			        &nbsp;   &nbsp;   &nbsp;<img src="https://i.imgur.com/sMG0Hcn.png" alt="DST toggle option in the Settings app" width=75%><p>&nbsp;</p>
-			    </details>
-			</li>
-		    </ol>
-		</div>
-
-### <ins>Installation instructions</ins>
 
 <ol>
     <li>
