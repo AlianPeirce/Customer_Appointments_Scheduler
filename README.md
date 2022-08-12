@@ -180,6 +180,8 @@ Before installing the Customer Appointments Scheduler, please ensure that your s
 
 ## Usage
 
+https://user-images.githubusercontent.com/110432500/184267328-99ea4d28-6741-4b4d-a36b-4841258c72b9.mp4
+
 ## Other information
 * The version of JDK used in this application is Java SE 17.0.2.
 * The version of JavaFX used in this application is JavaFX-SDK-17.0.1.
