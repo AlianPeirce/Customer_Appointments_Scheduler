@@ -180,7 +180,7 @@ Before installing the Customer Appointments Scheduler, please ensure that your s
 
 ## Usage
 
-Please view the following video for a demonstration of the Customer Appointments Scheduler. Don't forget to turn on the sound! 🔊
+Please view the following video for a demonstration of the Customer Appointments Scheduler. Don't forget to unmute the video! 🔊
 
 https://user-images.githubusercontent.com/110432500/184267328-99ea4d28-6741-4b4d-a36b-4841258c72b9.mp4
 
