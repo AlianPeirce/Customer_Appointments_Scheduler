@@ -1,14 +1,12 @@
 # Customer Appointments Scheduler
 
-This Customer Appointments Scheduler is an application designed for the Langley Consulting Group ("LCG" – a fictitious company) for the purpose of maintaining customer records and scheduling appointments for those customers.
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/110432500/184468131-365957c5-593c-4765-8360-e8dce4715a17.gif" alt="Demo of application in GIF format" />
+</p>
+
+The Customer Appointments Scheduler is an application designed for the Langley Consulting Group ("LCG" – a fictitious company) for the purpose of maintaining customer records and scheduling appointments for those customers.
 
 Appointments and customer records can be added, updated, and deleted using the application; all of these records will be stored in LCG's database.
-
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/110432500/184467188-deafc64a-d08d-4f67-846c-7fd45d8d0019.gif)
-
-![GIF Software Demo (Edited)](https://user-images.githubusercontent.com/110432500/184467326-7a426e56-dfa2-4d06-9ca0-d121f2c66c08.gif)
-
-![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/110432500/184467916-4b9f3671-29a4-41af-9f2a-263f5b661753.gif)
 
 ## Table of Contents
 * [Features](#features)
