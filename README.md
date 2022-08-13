@@ -4,6 +4,18 @@ This Customer Appointments Scheduler is an application designed for the Langley 
 
 Appointments and customer records can be added, updated, and deleted using the application; all of these records will be stored in LCG's database.
 
+![GIF Software Demo](https://user-images.githubusercontent.com/110432500/184466923-5f822e03-4d34-4aa8-babe-6b54ae04dde2.gif)
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/110432500/184467188-deafc64a-d08d-4f67-846c-7fd45d8d0019.gif)
+
+![GIF Software Demo (Edited)](https://user-images.githubusercontent.com/110432500/184467326-7a426e56-dfa2-4d06-9ca0-d121f2c66c08.gif)
+
+![GIF_Software_Demo__Edited__AdobeExpress](https://user-images.githubusercontent.com/110432500/184467441-31182db0-20a1-417c-8106-9e83acd9e63e.gif)
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/110432500/184467590-b9660745-93ff-4d86-bbb5-512c862c5b0d.gif)
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/110432500/184467645-602e1054-1b16-4420-9e09-324171740854.gif)
+
 ## Table of Contents
 * [Features](#features)
 * [System requirements](#system-requirements)
