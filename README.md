@@ -8,6 +8,8 @@ The Customer Appointments Scheduler allows you to easily maintain an index of al
 
 This application was designed for the Langley Consulting Group ("LCG" – a fictitious company), but it can be used by other organizations as long as their database is configured according to [the instructions below](#database-specifications).
 
+Click [here](#usage) to skip to the demo!
+
 ## Table of Contents
 * [Features](#features)
 * [System requirements](#system-requirements)
