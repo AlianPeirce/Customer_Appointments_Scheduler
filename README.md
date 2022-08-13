@@ -1,12 +1,12 @@
 # Customer Appointments Scheduler
 
+The Customer Appointments Scheduler allows you to easily maintain an index of all your customers as well as the appointments you have with them.
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/110432500/184468131-365957c5-593c-4765-8360-e8dce4715a17.gif" alt="Demo of application in GIF format" />
 </p>
 
-The Customer Appointments Scheduler is an application designed for the Langley Consulting Group ("LCG" – a fictitious company) for the purpose of maintaining customer records and scheduling appointments for those customers.
-
-Appointments and customer records can be added, updated, and deleted using the application; all of these records will be stored in LCG's database.
+This application was designed for the Langley Consulting Group ("LCG" – a fictitious company), but it can be used by other organizations as long as their database is configured according to [the instructions below](#database-specifications).
 
 ## Table of Contents
 * [Features](#features)
