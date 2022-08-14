@@ -11,8 +11,6 @@
 
 &nbsp;
 
-The Customer Appointments Scheduler allows you to easily maintain an index of all your customers as well as the appointments you have with them.
-
 <p align="center">
     <img src="https://user-images.githubusercontent.com/110432500/184468131-365957c5-593c-4765-8360-e8dce4715a17.gif" alt="Demo of application in GIF format" />
 </p>
@@ -22,6 +20,8 @@ The Customer Appointments Scheduler allows you to easily maintain an index of al
 </p>
 
 &nbsp;
+
+The Customer Appointments Scheduler allows you to easily maintain an index of all your customers as well as the appointments you have with them.
 
 This application was designed for the Langley Consulting Group ("LCG" – a fictitious company), but it can be used by other organizations as long as their database is configured according to [the instructions below](#database-specifications).
 
