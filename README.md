@@ -12,11 +12,11 @@
 &nbsp;
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/110432500/184468131-365957c5-593c-4765-8360-e8dce4715a17.gif" alt="Demo of application in GIF format" />
+    <a href="#usage"><b>Click here to skip to the FULL DEMO</b>!</a>
 </p>
 
 <p align="center">
-    <a href="#usage">Click here to skip to the full demo!</a>
+    <img src="https://user-images.githubusercontent.com/110432500/184468131-365957c5-593c-4765-8360-e8dce4715a17.gif" alt="Demo of application in GIF format" />
 </p>
 
 &nbsp;
