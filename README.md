@@ -210,4 +210,4 @@ https://user-images.githubusercontent.com/110432500/184267328-99ea4d28-6741-4b4d
 * The version of JavaFX used in this application is JavaFX-SDK-17.0.1.
 
 ## Acknowledgements
-* All aspects of this application were created by <a href="https://github.com/AlanoPeirce">Alian Peirce</a>.
+* All aspects of this application were created by <a href="https://github.com/AlianPeirce">Alano Peirce</a>.
